@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import "./assets/css/Dartmode.css";
+import "../assets/css/Dartmode.css";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 function Dartmode() {
   const [toggle, setToggle] = useState("Light");
@@ -30,7 +33,7 @@ function Dartmode() {
         id="dartmode-toggle"
         onClick={toggleTheme}
       >
-        {toggle}
+        <FontAwesomeIcon icon={toggle === "Light" ? faMoon : faSun} />
       </button>
     </div>
   );

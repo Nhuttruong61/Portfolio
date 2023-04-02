@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Dartmode from "./Dartmode";
-import "./assets/css/Navigation.css";
+import "../assets/css/Navigation.css";
+
 
 function Navigation() {
   const ListNavs = ["Home", "About", "Learn", "Contact"];
