@@ -1,6 +1,6 @@
 import React from "react";
 import zozo from "../assets/images/zyro-image.png";
-import "../components/About";
+import "./About";
 function Home() {
   return (
     <div>

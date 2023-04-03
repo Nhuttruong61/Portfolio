@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Naviration from "./components/Naviration";
-import About from "./components/About";
+import About from "./pages/About";
 function App() {
   return (
     <div className="App">
