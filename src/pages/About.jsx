@@ -6,6 +6,7 @@ import IconJavascript from '../assets/images/Iconjavascript.png';
 import Icontailwind from '../assets/images/icontailwindcss.png';
 import IconReact from "../assets/images/React-icon.png"
 import IconBootrap from "../assets/images/iconbootstrap.png"
+import "../assets/css/About.css"
 
 const skills = [
   {
@@ -69,9 +70,9 @@ function About() {
       <p className="text-4xl my-3 font-bold">Professional Skillset</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center items-center">
         {skills.map((skill) => (
-          <div className="flex justify-center items-center my-8" key={skill.id}>
+          <div className="flex justify-center items-center my-8 mx-8 border-4 rounded-2xl" key={skill.id}>
            <div className="">
-           <img src={skill.url} alt={skill.name} className="w-40" />
+           <img src={skill.url} alt={skill.name} className="w-40 my-8 mx-8 zoom " />
             <p className="text-3xl my-3 font-semibold">{skill.name}</p>
            </div>
           </div>

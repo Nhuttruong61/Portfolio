@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 [data-theme="dark"]{
-  background-color: #282c34;
+  background-image: url("./assets/images/dark.png");
   color: white;
   
 }

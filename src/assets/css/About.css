@@ -1,0 +1,9 @@
+.zoom{
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    cursor: pointer;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.3);
+  }
