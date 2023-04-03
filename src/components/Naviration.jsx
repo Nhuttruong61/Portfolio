@@ -5,7 +5,7 @@ import "../assets/css/Navigation.css";
 
 
 function Navigation() {
-  const ListNavs = ["Home", "About", "Learn", "Contact"];
+  const ListNavs = ["Home", "About", "Resume", "Contact"];
   return (
     <div className="Container">
       <Dartmode />
