@@ -13,7 +13,7 @@ function Navigation() {
         <ul className="Container__column--ul">
           {ListNavs.map((list, index) => (
             <li key={index} className="Container__column--li">
-              <Link style={{color: "rgb(219 147 21)"}} to={`/${list.toLowerCase()}`}>{list}</Link>
+              <Link  to={`/${list.toLowerCase()}`}>{list}</Link>
             </li>
           ))}
         </ul>

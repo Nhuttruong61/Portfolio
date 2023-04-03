@@ -8,10 +8,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Naviration />
-        <Home />
+
         <Routes>
           <Route index element={<Home />} />
-          {/* <Route path="/About" element = {<About/>} /> */}
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
         </Routes>
       </BrowserRouter>
     </div>

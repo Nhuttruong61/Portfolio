@@ -1,7 +1,6 @@
 import React from "react";
 import zozo from "../assets/images/zyro-image.png";
 import "../components/About";
-import About from "../components/About";
 function Home() {
   return (
     <div>
@@ -16,7 +15,6 @@ function Home() {
           <img src={zozo} alt="" srcset="" className="w-2/3" />
         </div>
       </div>
-      <About />
     </div>
   );
 }
