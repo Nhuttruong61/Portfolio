@@ -73,8 +73,8 @@ function Contact() {
         <div className="md:w-1/2 mt-6 md:mt-0">
           <p className="my-3 text-3xl">Or you can reach us at:</p>
           <ul className="list-disc ml-10 text-2xl" style={{listStyle: "none"}}>
-            <li>Address:  Cái Khế, Ninh Kieuefm Cần Thơ</li>
-            <li>Phone: 0168987789</li>
+            <li>Address:  Cái Khế, Ninh Kiều Cần Thơ</li>
+            <li>Phone: 01684708361</li>
             <li>Email: Nhuttruong2261@gmail.com</li>
           </ul>
         </div>
