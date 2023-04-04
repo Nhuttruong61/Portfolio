@@ -11,12 +11,12 @@ import "../assets/css/About.css"
 const skills = [
   {
     id: 1,
-    name: "Html",
+    name: "HTML",
     url: IconHtml,
   },
   {
     id: 2,
-    name: "Css",
+    name: "CSS",
     url: Iconcss,
   },
   {
@@ -36,7 +36,7 @@ const skills = [
   },
   {
     id: 6,
-    name: "Tailwindcss",
+    name: "TailWindcss",
     url: Icontailwind,
   },
 ];
