@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
-[data-theme="dark"]{
-  background-image: url("./assets/images/dark.png");
+[data-theme="dark"] {
+  background-color: #111111;
   color: white;
-  
 }
-[data-theme="light"]{
+[data-theme="light"] {
   background-color: #fcfcfc;
   color: black;
-  
 }
